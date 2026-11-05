@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
-  output: 'export',
   basePath: '/abihailp/abihail.com',
   assetPrefix: '/abihailp/abihail.com/',
   partialPrefetching: false,
