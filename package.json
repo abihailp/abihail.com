@@ -15,7 +15,8 @@
     "react": "^19.3.1",
     "react-dom": "19.3.0",
     "react-query": "^3.39.3",
-    "sqlite": "^5.1.1"
+    "sqlite": "^5.1.1",
+    "webpack": "^5.112.2"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4.3.4",
