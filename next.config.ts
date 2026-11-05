@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
     agentFeedback: true,
   },
   output: 'export',
-  basePath: '/abihailp/abihail.com',
-  assetPrefix: '/abihailp/abihail.com/',
+  // basePath: '/abihailp/abihail.com',
+  // assetPrefix: '/abihailp/abihail.com/',
   partialPrefetching: false,
   turbopack: {
     rules: {
