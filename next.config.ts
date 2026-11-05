@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   basePath: '/abihailp/abihail.com',
   assetPrefix: '/abihailp/abihail.com/',
-  partialPrefetching: true,
+  partialPrefetching: false,
   turbopack: {
     rules: {
       "*.css": {
