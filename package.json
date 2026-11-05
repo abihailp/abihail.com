@@ -15,7 +15,8 @@
     "react": "^19.3.1",
     "react-dom": "19.3.0",
     "react-query": "^3.39.3",
-    "sqlite": "^5.1.1"
+    "sqlite": "^5.1.1",
+    "webpack": "^5.112.2"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4.3.4",
@@ -25,6 +26,7 @@
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4.3.4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "webpack-cli": "^7.3.1"
   }
 }
