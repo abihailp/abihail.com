@@ -12,7 +12,7 @@ return (
     <a href="#"><img className="ham sm:hidden absolute left-100 w-1/10 top-40" src="g5.svg"></img></a>
     </div>
     </div>
-       <main className="content flex">
+       <main className="content ">
     <div className="section1 flex">
 
     <div className="page_1 pt-10">

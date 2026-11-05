@@ -20,9 +20,10 @@
 
 body {
   background: url(../public/layer2.svg);
-  background-color: #f9f9f9ff;
+  background-color: #f9f9f9;
   background-size: cover;
-  background-position: 0 0;
+  background-position: 0 120;
+  background-repeat: no-repeat;
   color: var(--foreground);
   font-family: sans-serif;
   display: grid;
@@ -37,11 +38,12 @@ body {
 
 .content {
   display: grid;
-  grid-area: 5/1/1/2;
   background-color: #f9f9f9ff;
   margin: 5rem auto;
   padding: 0 5rem;
   justify-content: center;
+  width: 95%;
+  min-height: auto;
 }
 
 .header {
