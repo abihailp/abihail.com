@@ -2,9 +2,9 @@
 export default function Home() {
 
 return (
-  <div className="body flex w-full">
+  <div className="body flex w-full mx-auto">
     <main className="content grid mx-auto">
-    <div className="header mx-auto justify-center items-center mt-10 px-5">
+    <div className="header bg-white-300 mx-auto justify-center items-center mt-10 px-5">
     <a href="#" className="nav-1 px-5 text-lg">Home</a><a href="#" className="nav-2 px5 text-lg">About me</a><a href="#" className="nav-3 px-5 text-lg">Blog</a><a href="#" className="nav-4 text-lg">resume</a>
     </div>
     <div className="page_1 py-10 mt-10 mx-auto justify-center items-center">
