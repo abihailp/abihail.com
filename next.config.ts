@@ -5,8 +5,10 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
-  cacheComponents: true,
-  partialPrefetching: true,
+  output: 'export',
+  basePath: '/abihailp/abihail.com',
+  assetPrefix: '/abihailp/abihail.com/',
+  partialPrefetching: false,
   turbopack: {
     rules: {
       "*.css": {

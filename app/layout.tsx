@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Abihail Petit-Frere | Software Engineer",
+  title: "Abihail Petit-Frere - Software Engineer",
   description: "",
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head><link rel="stylesheet" href="style.css"/></head>
+      <head><link rel="stylesheet" href="../public/globals.css"/></head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
