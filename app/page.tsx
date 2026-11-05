@@ -2,7 +2,7 @@
 export default function Home() {
 
 return (
-  <div className="body flex w-full mx-auto">
+  <div className="body flex mx-auto">
     <main className="content grid mx-auto">
     <div className="header bg-white-300 mx-auto justify-center items-center mt-10 px-5">
     <a href="#" className="nav-1 px-5 text-lg">Home</a><a href="#" className="nav-2 px5 text-lg">About me</a><a href="#" className="nav-3 px-5 text-lg">Blog</a><a href="#" className="nav-4 text-lg">resume</a>
