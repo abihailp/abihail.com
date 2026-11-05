@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   output: 'export',
+  basePath: '/abihailp/abihail.com',
+  assetPrefix: '/abihailp/abihail.com/',
   partialPrefetching: true,
   turbopack: {
     rules: {
