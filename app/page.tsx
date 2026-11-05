@@ -3,7 +3,11 @@ export default function Home() {
 
 return (
   <div className="body">
+        <div className="contact absolute text-lg top-10 text-blue-500 pb-5 px-10">
+          <b>info@abihail.com</b></div>
+    <div className="contact2 md:absolute text-md text-blue-500 pt-5 px-10">317-434-4235</div>
   <div className="header grid md:mt-10 lg:pl-50">
+
     <div className="nav lg:mx-auto"><div className="title lg:absolute px-5 left-100"><h2>Abihail P.</h2><h2 className="text-gray-400">Software Engineer</h2></div>
     <img className="picture lg:absolute left-50 w-50" src="frame3.webp" />
     <div className="links ">
