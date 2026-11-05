@@ -3,10 +3,10 @@ export default function Home() {
 
 return (
   <div className="body">
-  <div className="header grid  my-10 px-5 justify-center items-end">
+  <div className="header grid mt-10 pl-50">
     <div className="nav mx-auto"><div className="title absolute px-5 left-100"><h2>Abihail P.</h2><h2 className="text-gray-400">Software Engineer</h2></div>
-    <img className="picture absolute left-50 t w-50" src="frame3.webp" />
-    <a href="#" className="nav-1 px-5 text-lg">Home</a><a href="#" className="nav-2 px5 text-lg">About me</a><a href="#" className="nav-3 px-5 text-lg">Blog</a><a href="#" className="nav-4 text-lg">resume</a>
+    <img className="picture absolute left-50 w-50" src="frame3.webp" />
+    <a href="#" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="#" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">resume</a>
     <img className="ham absolute right-25 top-15" src="g5.svg"></img>
     </div>
     </div>

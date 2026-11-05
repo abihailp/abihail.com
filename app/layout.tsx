@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Google_Sans, Google_Sans_Flex } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const GoogleSans = Google_Sans({
+  variable: "--font-Google_Sans",
+  weight: "400",
   subsets: ["latin"],
+  fallback: ["sans-serif"]
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const Google_Sans_F = Google_Sans_Flex({
+  variable: "--font-Google_Sans_Flex",
+  weight: "400",
   subsets: ["latin"],
+  fallback: ["Arial"]
 });
 
 export const metadata: Metadata = {
@@ -21,10 +25,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${GoogleSans.variable} ${Google_Sans_F.variable} h-full antialiased`}
     >
       <head><link rel="stylesheet" href="../public/globals.css"/></head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }

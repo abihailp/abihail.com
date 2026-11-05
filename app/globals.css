@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --foreground: #171717;
 }
@@ -7,8 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-Google_Sans);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,7 +24,7 @@ body {
   background-size: cover;
   background-position: 0 0;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   display: grid;
   width: auto;
 }
@@ -34,9 +34,7 @@ body {
   font-weight: 700;
   font-size: x-large;
 }
-.picture {
 
-}
 .content {
   display: grid;
   background-color: #f9f9f9ff;
@@ -55,7 +53,8 @@ body {
 }
 
 .nav {
- padding: 1rem ;
+ padding: 1rem 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .page_1 {
@@ -67,24 +66,20 @@ body {
 }
 
 .nav-1 {
-  margin: 1rem 2.5rem;
-  font-size: 22px;
+  margin: 1rem 1.5rem;
 }
 
 .nav-2 {
-  margin: 1rem 2.5rem;
-  font-size: 22px;
+  margin: 1rem 1.5rem;
 
 }
 
 .nav-3 {
-  margin: 1rem 2.5rem;
-  font-size: 22px;
+  margin: 1rem 1.5rem;
 }
 
 .nav-4 {
-  margin: 1rem;
-  font-size: 22px;
+  margin: 1rem 0;
 }
 
 h1 {
