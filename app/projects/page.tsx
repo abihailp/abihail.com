@@ -1,6 +1,3 @@
-
-'use cache'
-
 import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal } from "react";
 
 
