@@ -11,7 +11,7 @@ return (
     <div className="nav lg:mx-auto"><div className="title lg:absolute px-5 left-100"><h2>Abihail P.</h2><h2 className="text-gray-400">Software Engineer</h2></div>
     <img className="picture lg:absolute left-50 w-50" src="frame3.webp" />
     <div className="links ">
-    <a href="#" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">resume</a>
+    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">resume</a>
     </div>
     <a href="#"><img className="ham sm:hidden absolute left-100 w-1/10 top-40" src="g5.svg"></img></a>
     </div>
