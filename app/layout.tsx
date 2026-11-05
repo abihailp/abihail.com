@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Abihail Petit-Frere | Software Engineer",
+  title: "Abihail Petit-Frere",
   description: "",
 };
 
