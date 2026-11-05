@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     agentFeedback: true,
   },
   cacheComponents: true,
+  basePath: '/',
   partialPrefetching: true,
   turbopack: {
     rules: {
