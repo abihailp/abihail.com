@@ -41,7 +41,6 @@ body {
   margin: 5rem auto;
   padding: 0 5rem;
   justify-content: center;
-  align-items: center;
 }
 
 .header {
@@ -59,10 +58,8 @@ body {
 
 .page_1 {
   width: 100%;
-  padding: 2.5rem 0;
-  margin: 2.5rem auto;
-  justify-content: center;
-  align-items: center;
+
+
 }
 
 .nav-1 {
