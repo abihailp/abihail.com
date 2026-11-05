@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1434.0021"
+   height="874.00195"
+   viewBox="0 0 379.41305 231.24635"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient13">
+      <stop
+         style="stop-color:#8dffa6;stop-opacity:1;"
+         offset="0.40000001"
+         id="stop13" />
+      <stop
+         style="stop-color:#00ffa0;stop-opacity:1;"
+         offset="0.49740085"
+         id="stop19" />
+      <stop
+         style="stop-color:#c8e5ff;stop-opacity:1;"
+         offset="0.99387139"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient13"
+       id="linearGradient14"
+       x1="197.32106"
+       y1="230.7247"
+       x2="60.549847"
+       y2="50.086395"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5671741,0,0,0.99886051,0.26377613,-8.0708937e-4)" />
+  </defs>
+  <g
+     id="layer2"
+     transform="matrix(0.9999985,0,0,1.001143,-0.26377579,8.0801184e-4)">
+    <rect
+       style="fill:url(#linearGradient14);fill-opacity:1;stroke:none;stroke-width:0.998865;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7"
+       width="379.4136"
+       height="230.98235"
+       x="0.26377618"
+       y="-0.00080708938" />
+  </g>
+  <g
+     id="layer1"
+     transform="translate(-0.49369085,-1.4262862)"
+     style="display:none">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1"
+       width="103.26383"
+       height="37.819344"
+       x="1.7789667"
+       y="1.4260012" />
+    <path
+       style="fill:none;stroke:#00a6aa;stroke-width:0.522287;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.04634,39.413345 c -103.2675518,0 -103.2675518,0 -103.2675518,0"
+       id="path2" />
+    <ellipse
+       style="fill:#f9f9f9;fill-opacity:0.778589;stroke:#ffffff;stroke-width:0.464488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path1"
+       cx="22.945219"
+       cy="33.797009"
+       rx="14.45646"
+       ry="14.860595" />
+    <g
+       id="g5"
+       transform="translate(0.77304557,3.380569)">
+      <path
+         style="fill:none;stroke:#00aa34;stroke-width:0.323129;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 88.21895,13.347558 c 9.608399,0 9.608399,0 9.608399,0"
+         id="path3" />
+      <path
+         style="fill:none;stroke:#00aa34;stroke-width:0.323129;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 88.21895,20.56265 c 9.608399,0 9.608399,0 9.608399,0"
+         id="path4" />
+      <path
+         style="fill:none;stroke:#00aa34;stroke-width:0.323129;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 88.21895,16.955104 c 9.608399,0 9.608399,0 9.608399,0"
+         id="path5" />
+    </g>
+    <path
+       style="fill:#ffffff;stroke:#808080;stroke-width:0.423031;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.10416409,109.3286 v 0 -50.739114 H 106.25834 V 109.3286 Z"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:0;font-family:'Google Sans Flex';-inkscape-font-specification:'Google Sans Flex Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#666666;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="38.595291"
+       y="22.453749"
+       id="text7"><tspan
+         id="tspan7"
+         style="fill:#666666;stroke:none;stroke-width:0.529167"
+         x="38.595291"
+         y="22.453749">Abihail Petit-Frere</tspan><tspan
+         style="fill:#666666;stroke:none;stroke-width:0.529167"
+         x="38.595291"
+         y="22.453749"
+         id="tspan8" /></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:0;font-family:'Google Sans Flex';-inkscape-font-specification:'Google Sans Flex Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#cccccc;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="38.404812"
+       y="28.9251"
+       id="text9"><tspan
+         id="tspan9"
+         style="fill:#cccccc;stroke:none;stroke-width:0.529167"
+         x="38.404812"
+         y="28.9251">Software Engineer</tspan></text>
+    <path
+       style="display:inline;fill:#f9f9f9;stroke:#808080;stroke-width:0.502773;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 137.74402,196.54894 v 0 -72.51942 h 104.91207 v 72.51942 z"
+       id="path12" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:0;font-family:'Google Sans Flex';-inkscape-font-specification:'Google Sans Flex Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="24.719862"
+       y="220.83336"
+       id="text13"><tspan
+         id="tspan13"
+         style="stroke-width:0.529167"
+         x="24.719862"
+         y="220.83336">Contact / Social Media</tspan></text>
+    <path
+       style="fill:none;stroke:#00a6aa;stroke-width:0.522287;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.04466,1.258001 c -103.2675532,0 -103.2675532,0 -103.2675532,0"
+       id="path19" />
+    <path
+       style="fill:none;stroke:#00a6aa;stroke-width:5.65382e-09;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 104.77663,38.990637 c 0,-37.6330567 0,-37.6330567 0,-37.6330567"
+       id="path20" />
+  </g>
+  <g
+     id="layer3"
+     style="display:none"
+     transform="translate(-0.26406115,5.2212364e-4)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:0;font-family:'Google Sans Flex';-inkscape-font-specification:'Google Sans Flex Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#ffffff;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="36.777813"
+       y="55.853786"
+       id="text12"><tspan
+         id="tspan12"
+         style="stroke-width:0.529167"
+         x="36.777813"
+         y="55.853786">About Me</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:0;font-family:'Google Sans Flex';-inkscape-font-specification:'Google Sans Flex Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;display:none;fill:#ffffff;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="30.384054"
+       y="116.30045"
+       id="text11"><tspan
+         id="tspan11"
+         style="fill:#ffffff;stroke-width:0.529167"
+         x="30.384054"
+         y="116.30045">Latest Projects</tspan></text>
+  </g>
+</svg>

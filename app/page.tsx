@@ -7,7 +7,7 @@ return (
     <div className="header mx-auto justify-center items-center mt-10 px-5">
     <a href="#" className="nav-1 px-5 text-lg">Home</a><a href="#" className="nav-2 px5 text-lg">About me</a><a href="#" className="nav-3 px-5 text-lg">Blog</a><a href="#" className="nav-4 text-lg">resume</a>
     </div>
-    <div className="page_1 w-full py-10 mt-10 mx-auto justify-center items-center">
+    <div className="page_1 py-10 mt-10 mx-auto justify-center items-center">
     <h1 className="font-semibold text-3xl text-cyan-900 mx-auto">Abihail Petit-Frere - Software Engineer</h1>
     <p className="text-md pt-5 mx-auto">Hi, my name is Abihail Petit-Frere. </p>
     <p className="text-md mx-auto">I am a software engineer from Miami, FL.</p>
