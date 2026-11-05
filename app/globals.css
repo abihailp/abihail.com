@@ -53,8 +53,21 @@ body {
 }
 
 .nav-1 {
-  
+  margin: 1rem 2.5rem;
+  font-size: 22px;
 }
+
+.nav-2 {
+  margin: 1rem 2.5rem;
+  font-size: 22px;
+
+}
+
+.nav-3 {
+  margin: 1rem 2.5rem;
+  font-size: 22px;
+}
+
 
 h1 {
   color: #104e64;
