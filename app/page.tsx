@@ -1,6 +1,6 @@
 
 'use client'
-import  react  from 'React';
+import  react  from 'react';
 import { useState }  from 'react';
 
 export default function Home() {
