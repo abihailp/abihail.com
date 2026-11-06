@@ -23,7 +23,7 @@ return (
     <div className="nav lg:mx-auto"><div className="title lg:absolute px-5 left-100"><h2>Abihail P.</h2><h2 className="text-gray-400">Software Engineer</h2></div>
     <img className="picture lg:absolute left-50 w-50" src="./frame3.webp" />
     <div className="mobile">
-    <a href="#"><button className="ham sm:hidden absolute left-100 w-1/10 top-40" onClick={Open}><img src="g5.svg"></img></button></a>
+    <a href="#"><button className="ham sm:hidden absolute  left-80 top-40" onClick={Open}><img src="g5.svg"></img></button></a>
     {!menuOpen && <div className="mobile-menu md:hidden">
     <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="/contact" className="nav-4 text-xl font-semibold">Contact</a></div>}
     <div className="menu "><a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="/contact" className="nav-4 text-xl font-semibold">Contact</a></div>
@@ -47,10 +47,12 @@ return (
       <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
       <li className="pt-5 pl-5"><strong>Concert Tickets</strong></li>
       <p className="font-semibold pl-5">09/2026</p>
-      <p className="py-2.5 pl-10"> Using Next.JS I created a ticket inventory checker that uses Ticketmaster API to check for concert availability.</p>
+      <p className="py-2.5 pl-10"> Using React and CSS, I created a ticket inventory checker that uses Ticketmaster API to check for concert availability.</p>
+      <img src="orlando.PNG" width="100%" />
       <li className="pt-5 pl-5"><strong>Road Jump</strong></li>
       <p className="font-semibold pl-5">09/2026</p>
-      <p className="pt-5 pl-10">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
+      <p className="pt-5 pl-10">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>\
+      <img src="roadjump.PNG" width="100%" />
       <li className="pt-5 pl-5"><strong>Portfolio Website</strong></li>
       <p className="font-semibold pl-5">10/2026</p>
       <p className="pl-10 pt-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
@@ -74,10 +76,12 @@ return (
       <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
       <li className="pt-5 pl-5"><strong>Concert Tickets</strong></li>
       <p className="font-semibold pl-5">09/2026</p>
-      <p className="py-2.5 pl-10"> Using Next.JS I created a ticket inventory checker that uses Ticketmaster API to check for concert availability.</p>
+      <p className="py-2.5 pl-10"> Using React and CSS, I created a ticket inventory checker that uses Ticketmaster API to check for concert availability.</p>
+       <img src="orlando.PNG" width="50%" />
       <li className="pt-5 pl-5"><strong>Road Jump</strong></li>
       <p className="font-semibold pl-5">09/2026</p>
       <p className="pt-5 pl-10">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
+      <img src="roadjump.PNG" width="50%" />
       <li className="pt-5 pl-5"><strong>Portfolio Website</strong></li>
       <p className="font-semibold pl-5">10/2026</p>
       <p className="pl-10 pt-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
