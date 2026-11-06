@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Google_Sans, Google_Sans_Flex } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const GoogleSans = Google_Sans({
   variable: "--font-Google_Sans",
@@ -17,8 +17,8 @@ const Google_Sans_F = Google_Sans_Flex({
 });
 
 export const metadata: Metadata = {
-  title: "Abihail Petit-Frere - Software Engineer | Game Dev",
-  description: "",
+  title: "Projects",
+  description: "Latest Programming Projects",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
