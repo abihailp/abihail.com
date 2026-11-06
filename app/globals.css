@@ -97,7 +97,7 @@ h1 {
 }
 
 @media screen and (max-width: 40rem) {
-  .section-1, .page_1 {
+  .section-1, .page_1, .content {
     display: none;
   }
 }
