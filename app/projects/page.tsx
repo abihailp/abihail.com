@@ -1,5 +1,17 @@
+'use client'
+import  react  from 'React';
+import { useState }  from 'react';
 
 export default function Home() {
+const [menuOpen, setMenu] = useState(true);
+
+function Open() {
+setMenu(false)
+}
+
+function Close() {
+  setMenu(false)
+}
 
 return (
   <div className="body">
@@ -10,10 +22,12 @@ return (
 
     <div className="nav lg:mx-auto"><div className="title lg:absolute px-5 left-100"><h2>Abihail P.</h2><h2 className="text-gray-400">Software Engineer</h2></div>
     <img className="picture lg:absolute left-50 w-50" src="./frame3.webp" />
-    <div className="links md:opacity-100 opacity-0">
-    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a>
+    <div className="mobile">
+    <a href="#"><button className="ham sm:hidden absolute left-100 w-1/10 top-40" onClick={Open}><img src="g5.svg"></img></button></a>
+    {!menuOpen && <div className="mobile-menu md:hidden">
+    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a></div>}
+    <div className="menu "><a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a></div>
     </div>
-    <a href="#"><img className="ham sm:hidden absolute left-100 w-1/10 top-40" src="./g5.svg"></img></a>
     </div>
     </div>
        <main>
@@ -45,9 +59,9 @@ return (
 </div>
 </div>
 
-    <div className="content hidden">
+    <div className="content">
    
-    <div className="lg:work md:opacity-100 opacity-0 bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
+    <div className="work bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
     <h1 className="font-semibold mx-auto my-7
     .5">Projects</h1>
     <ul className="text-md py-5">

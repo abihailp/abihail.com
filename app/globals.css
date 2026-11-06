@@ -89,3 +89,22 @@ h1 {
   color: #104e64;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 40rem) {
+  .menu {
+    visibility:hidden !important;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .section-1, .page_1 {
+    display: none;
+  }
+}
+
+.content {
+  visibility: initial;
+}
+.menu {
+  visibility: initial;
+}
