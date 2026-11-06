@@ -1,5 +1,5 @@
 'use client'
-import  react  from 'react';
+// import  react  from 'react';
 import { useState }  from 'react';
 
 export default function Home() {
@@ -37,37 +37,23 @@ return (
     <div className="work bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
     <h1 className="font-semibold mx-auto my-7
     .5">Contact Info</h1>
-   <div className=""></div>
+   <div className="contact-mobile p-10 mx-auto bg-white w-full">
+    <p>You can reach me via e-mail: info@abihail.com or by phone: 317-434-4235</p>
+   </div>
+
+</div>
+</div>
+<div className="content">
+<div className="work bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
+<h1 className="font-semibold mx-auto my-7.5">Contact Info</h1>
+<div className="contact"><p className="p-20">You can reach me via e-mail: info@abihail.com or by phone: 317-434-4235</p></div>
+
 </div>
 </div>
 
-    <div className="content">
-   
-    <div className="work bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
-    <h1 className="font-semibold mx-auto my-7
-    .5">Projects</h1>
-    <ul className="text-md py-5">
-      <li className="pt-5 pl-5"><strong>Pix_ - 2D Game</strong></li>
-      <p className="font-semibold pl-5">11/2026</p>
-      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser.
-        <img src="image1.svg" width='50%' className="pb-5"/> <a href="/Pix_.html" >Click <strong> here </strong>to play.</a></p>
-      <li className="pt-5 pl-5"><strong>nolimits-marketing.com - Web Development</strong></li>
-      <p className="font-semibold pl-5">07/2026</p>
-      <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
-      <li className="pt-5 pl-5"><strong>Concert Tickets</strong></li>
-      <p className="font-semibold pl-5">09/2026</p>
-      <p className="py-2.5 pl-10"> Using Next.JS I created a ticket inventory checker that uses Ticketmaster API to check for concert availability.</p>
-      <li className="pt-5 pl-5"><strong>Road Jump</strong></li>
-      <p className="font-semibold pl-5">09/2026</p>
-      <p className="pt-5 pl-10">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
-      <li className="pt-5 pl-5"><strong>Portfolio Website</strong></li>
-      <p className="font-semibold pl-5">10/2026</p>
-      <p className="pl-10 pt-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
-      
-    </ul>
 
-</div>
- </div>
+
+  
     </main>
    
 </div>

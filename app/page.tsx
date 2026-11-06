@@ -1,6 +1,6 @@
 
 'use client'
-import  react  from 'react';
+// import  react  from 'react';
 import { useState }  from 'react';
 
 export default function Home() {
@@ -26,8 +26,8 @@ return (
     <div className="mobile">
     <a href="#"><button className="ham sm:hidden absolute left-100 w-1/10 top-40" onClick={Open}><img src="g5.svg"></img></button></a>
     {!menuOpen && <div className="mobile-menu md:hidden">
-    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a></div>}
-    <div className="menu "><a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a></div>
+    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="/contact" className="nav-4 text-xl font-semibold">Contact</a></div>}
+    <div className="menu "><a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="/contact" className="nav-4 text-xl font-semibold">Contact</a></div>
     </div>
     </div>
     </div>
@@ -45,7 +45,8 @@ return (
     <ul className="text-md py-5">
       <li className="pt-5 pl-5"><strong>Pix_ - 2D Game</strong></li>
       <p className="font-semibold pl-5">11/2026</p>
-      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser. <a href="/Pix_.html"><strong>Click here to play it.</strong></a></p>
+      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser. 
+        <img src="image1.svg" width='100%' className="pb-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a></p>
       <li className="pt-5 pl-5"><strong>nolimits-marketing.com - Web Development</strong></li>
       <p className="font-semibold pl-5">07/2026</p>
       <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
@@ -76,7 +77,8 @@ return (
     <ul className="text-md py-5">
       <li className="pt-5 pl-5"><strong>Pix_ - 2D Game</strong></li>
       <p className="font-semibold pl-5">11/2026</p>
-      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser. <a href="/Pix_.html"><strong>Click here to play it.</strong></a></p>
+      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser.</p>
+      <img src="image1.svg" width='50%' className="pb-5 pl-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
       <li className="pt-5 pl-5"><strong>nolimits-marketing.com - Web Development</strong></li>
       <p className="font-semibold pl-5">07/2026</p>
       <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>

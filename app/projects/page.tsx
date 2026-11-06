@@ -1,5 +1,5 @@
 'use client'
-import  react  from 'react';
+// import  react  from 'react';
 import { useState }  from 'react';
 
 export default function Home() {
@@ -25,8 +25,8 @@ return (
     <div className="mobile">
     <a href="#"><button className="ham sm:hidden absolute left-100 w-1/10 top-40" onClick={Open}><img src="g5.svg"></img></button></a>
     {!menuOpen && <div className="mobile-menu md:hidden">
-    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a></div>}
-    <div className="menu "><a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="#" className="nav-4 text-xl font-semibold">Contact</a></div>
+    <a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="/contact" className="nav-4 text-xl font-semibold">Contact</a></div>}
+    <div className="menu "><a href="/" className="nav-1 px-5 text-xl font-semibold">Home</a><a href="/projects" className="nav-2 px5 text-xl font-semibold">About me</a><a href="#" className="nav-3 px-5 text-xl font-semibold">Blog</a><a href="/contact" className="nav-4 text-xl font-semibold">Contact</a></div>
     </div>
     </div>
     </div>
