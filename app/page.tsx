@@ -32,9 +32,9 @@ return (
     </div>
     </div>
        <main>
-         <div className="mobile-content sm:hidden my-10">
+         <div className="mobile-content sm:hidden  my-10">
 
-      <div className="intro bg-white rounded-sm md:w-3/10 shadow-sm p-5 md:ml-60 mb-10">
+      <div className="intro bg-white rounded-sm shadow-sm mb-10 w-95/100 mx-auto p-5">
       <h1 className="font-semibold text-3xl text-cyan-900 mx-auto">Game Dev - React, JS, C#</h1>
     <p className="text-md pt-5 mx-auto">Hi, my name is Abihail Petit-Frere. </p>
     <p className="text-md mx-auto">I am a software engineer from Miami, FL.</p>
@@ -43,24 +43,25 @@ return (
  <h1 className="font-semibold mx-auto my-7
     .5">Projects</h1>
     <ul className="text-md py-5">
-      <li className="pt-5 pl-5"><strong>Pix_ - 2D Game</strong></li>
-      <p className="font-semibold pl-5">11/2026</p>
-      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser. 
-        <img src="image1.svg" width='100%' className="pb-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a></p>
-      <li className="pt-5 pl-5"><strong>nolimits-marketing.com - Web Development</strong></li>
-      <p className="font-semibold pl-5">07/2026</p>
+      <li className="pt-5"><strong>nolimits-marketing.com - Web Development</strong></li>
+      <p className="font-semibold">07/2026</p>
       <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
-      <li className="pt-5 pl-5"><strong>Concert Tickets</strong></li>
-      <p className="font-semibold pl-5">09/2026</p>
+      <img src="nlm.PNG" width="100%"/>
+      <li className="pt-5"><strong>Concert Tickets</strong></li>
+      <p className="font-semibold">09/2026</p>
       <p className="py-2.5 pl-10"> Using React I created a ticket inventory checker, that uses Ticketmaster's API to check for event availability.</p>
       <img src="orlando.PNG" width="100%" />
-      <li className="pt-5 pl-5"><strong>Road Jump</strong></li>
-      <p className="font-semibold pl-5">09/2026</p>
+      <li className="pt-5"><strong>Road Jump</strong></li>
+      <p className="font-semibold">09/2026</p>
       <p className="pt-5 pl-10">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
       <img src="roadjump.PNG" width="100%" />
-      <li className="pt-5 pl-5"><strong>Portfolio Website</strong></li>
-      <p className="font-semibold pl-5">10/2026</p>
+      <li className="pt-5"><strong>Portfolio Website</strong></li>
+      <p className="font-semibold">10/2026</p>
       <p className="pl-10 pt-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
+      <li className="pt-5"><strong>Pix_ - 2D Game</strong></li>
+      <p className="font-semibold">11/2026</p>
+      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser. 
+        <img src="image1.svg" width='100%' className="pb-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a></p>
       </ul>
     </div></div>
     <div className="content w-full">
@@ -73,29 +74,29 @@ return (
     <p className="text-md mx-auto">I am a software engineer from Miami, FL.</p>
     </div>
    
-    <div className="work bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
+    <div className="work bg-white rounded-sm shadow-sm pt-5 pl-50 my-10 justify-end align-right mx-auto">
     <h1 className="font-semibold mx-auto my-7
     .5">Projects</h1>
-    <ul className="text-md py-5">
-      <li className="pt-5 pl-5"><strong>Pix_ - 2D Game</strong></li>
-      <p className="font-semibold pl-5">11/2026</p>
-      <p className="py-5 pl-10">I created a game called Pix_ using a python like language that works on browser.</p>
-      <img src="image1.svg" width='50%' className="pb-5 pl-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
-      <li className="pt-5 pl-5"><strong>nolimits-marketing.com - Web Development</strong></li>
-      <p className="font-semibold pl-5">07/2026</p>
-      <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
-      <li className="pt-5 pl-5"><strong>Concert Tickets</strong></li>
-      <p className="font-semibold pl-5">09/2026</p>
-      <p className="py-2.5 pl-10"> Using React and CSS, I created a ticket inventory checker that uses Ticketmaster's API to check for concert availability.</p>
+    <ul className="text-md py-5 pl-50 mx-auto">
+      <li className="pt-5"><strong>nolimits-marketing.com - Web Development</strong></li>
+      <p className="font-semibold">07/2026</p>
+      <p className="p-2.5 my-5">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
+      <img src="nlm.PNG" width="50%"/>   
+      <li className="pt-5"><strong>Concert Tickets</strong></li>
+      <p className="font-semibold">09/2026</p>
+      <p className="py-2.5 my-5"> Using React and CSS, I created a ticket inventory checker that uses Ticketmaster's API to check for concert availability.</p>
       <img src="orlando.PNG" width="50%" />
-      <li className="pt-5 pl-5"><strong>Road Jump</strong></li>
-      <p className="font-semibold pl-5">09/2026</p>
-      <p className="pt-5 pl-10">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
-      <img src="roadjump.PNG" width="50%" />
-      <li className="pt-5 pl-5"><strong>Portfolio Website</strong></li>
-      <p className="font-semibold pl-5">10/2026</p>
-      <p className="pl-10 pt-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
-      
+      <li className="pt-5"><strong>Road Jump</strong></li>
+      <p className="font-semibold">09/2026</p>
+      <p className="pb-5 mt-5">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
+      <img src="roadjump.PNG" width="50%" />    
+      <li className="pt-5"><strong>Portfolio Website</strong></li>
+      <p className="font-semibold">10/2026</p>
+      <p className="pl-10 py-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
+      <li className="pt-5"><strong>Pix_ - 2D Game</strong></li>
+      <p className="font-semibold">11/2026</p>
+      <p className="pb-5 my-5">I created a game called Pix_ using a python like language that works on browser.</p>
+      <img src="image1.svg" width='50%' className="pb-5 pl-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
     </ul>
 
     

@@ -32,7 +32,7 @@ return (
     </div>
        <main>
 
-    <div className="mobile-content sm:hidden">
+    <div className="mobile-content p-5 mx-5 sm:hidden">
       
     <div className="work bg-white rounded-sm shadow-sm px-10 pt-5 my-10">
     <h1 className="font-semibold mx-auto my-7
