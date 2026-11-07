@@ -109,6 +109,7 @@ return (
     <div className="work bg-white rounded-sm shadow-sm pt-5 pl-50 my-10 justify-end align-right mx-auto">
     <h1 className="font-semibold mx-auto my-7
     .5">Projects</h1>
+    {!openModal && <div className="close"><button className="w-50 bg-blue-500 fixed top-25 right-50 text-white z-5000 rounded-sm"  onClick={CloseModal}><strong>Close</strong> x</button></div>}
     <ul className="text-md py-5 pl-50 mx-auto">
       <li className="pt-5"><strong>nolimits-marketing.com - Web Development</strong></li>
       <p className="font-semibold">07/2026</p>
@@ -138,7 +139,7 @@ return (
  </div>
   </div>
 
-{!openModal && <a href="#"><iframe id="frame" width="75%" height="1000px" src={m1.src} className="frame fixed bg-white/50 inset-0 z-20 top-25 left-25 mx-auto justify-center items-center"><div className="litebox z-1000 inset-0 fixed w-full mx-auto"><img width="1000px" src={m1.src} height="1000px" /></div><button className="bg-blue fixed top-50 z-1000 w-30 rounded-lg"></button></iframe> </a>}
+{!openModal && <a href="#"><iframe id="frame" width="100%" height="1000px" src={m1.src} className="frame fixed bg-white/50 inset-0 z-20 w-80/100 top-25 mx-auto justify-center items-center"></iframe> </a>}
 {openModal ?? close }
     </main>
    
