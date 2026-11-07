@@ -11,7 +11,7 @@ const [openModal, setModal] = useState(true);
 const Images = [{ id: 1, src: "nlm.PNG"},
   {id: 2, src: "orlando.PNG"},
   {id: 3, src: "roadjump.PNG"},
-  {id: 4, src: "image1.PNG"}];
+  {id: 4, src: "image1.png"}];
 
 const [activeIndex, setIndex] = useState<number | string>(Images[0].src)
 
@@ -130,7 +130,7 @@ return (
       <li className="pt-5"><strong>Pix_ - 2D Game</strong></li>
       <p className="font-semibold">11/2026</p>
       <p className="pb-5 my-5">I created a game called Pix_ using a python like language that works on browser.</p>
-      <a href="#frame" onClick={((e) => OpenModal(3))}><img src="image1.PNG" width='50%' className="pb-5 pl-5"/> </a><a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
+      <a href="#frame" onClick={((e) => OpenModal(3))}><img src="image1.png" width='50%' className="pb-5 pl-5"/> </a><a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
       
 
     </ul>
