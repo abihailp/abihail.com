@@ -2,7 +2,7 @@
 'use client'
 import { stringify } from 'querystring';
 // import  react  from 'react';
-import { useState }  from 'react';
+import { SetStateAction, useState }  from 'react';
 
 export default function Home() {
 const [menuOpen, setMenu] = useState(true);
@@ -13,7 +13,7 @@ const Images = [{ id: 1, src: "nlm.PNG"},
   {id: 3, src: "roadjump.PNG"},
   {id: 4, src: "image1.PNG"}];
 
-const [activeIndex, setIndex] = useState(Images[0].src)
+const [activeIndex, setIndex] = useState<number | string>(Images[0].src)
 
 
 
@@ -31,7 +31,7 @@ let m2 = var1[1]
 let m3 = var1[2]
 let m4 = var1[3]
 
-function OpenModal(e) {
+function OpenModal(e:number) {
   var1.map(e => { return var1 
   })
   setIndex(e)
