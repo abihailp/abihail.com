@@ -1,10 +1,22 @@
 
 'use client'
+import { stringify } from 'querystring';
 // import  react  from 'react';
 import { useState }  from 'react';
 
 export default function Home() {
 const [menuOpen, setMenu] = useState(true);
+const [openModal, setModal] = useState(true);
+
+const Images = [{ id: 1, src: "nlm.PNG"},
+  {id: 2, src: "orlando.PNG"},
+  {id: 3, src: "roadjump.PNG"},
+  {id: 4, src: "image1.PNG"}];
+
+const [activeIndex, setIndex] = useState(Images[0].src)
+
+
+
 
 function Open() {
 setMenu(false)
@@ -14,6 +26,25 @@ function Close() {
   setMenu(false)
 }
 
+const var1 = [...Images]
+let m2 = var1[1]
+let m3 = var1[2]
+let m4 = var1[3]
+
+function OpenModal(e) {
+  var1.map(e => { return var1 
+  })
+  setIndex(e)
+  setModal(false)
+}
+
+
+
+
+function CloseModal() {
+  setModal(true)
+}
+let m1 = var1[Number(activeIndex)]
 return (
   <div className="body">
         <div className="contact absolute text-lg md:right-10 right-15 top-10 text-blue-500 pb-5 px-10">
@@ -46,7 +77,8 @@ return (
       <li className="pt-5"><strong>nolimits-marketing.com - Web Development</strong></li>
       <p className="font-semibold">07/2026</p>
       <p className="p-2.5 pl-10">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
-      <img src="nlm.PNG" width="100%"/>
+      <a href="#" ><img src="nlm.PNG" width="100%"/></a>
+      {!openModal && <div className="base:hidden"><img src="nlm.PNG" width="200%" /></div>}
       <li className="pt-5"><strong>Concert Tickets</strong></li>
       <p className="font-semibold">09/2026</p>
       <p className="py-2.5 pl-10"> Using React I created a ticket inventory checker, that uses Ticketmaster's API to check for event availability.</p>
@@ -81,29 +113,33 @@ return (
       <li className="pt-5"><strong>nolimits-marketing.com - Web Development</strong></li>
       <p className="font-semibold">07/2026</p>
       <p className="p-2.5 my-5">With a Figma design project I created a Wordpress template that I styled using Elementor and HTML.</p>
-      <img src="nlm.PNG" width="50%"/>   
+      <a href="#frame" onClick={((e) => OpenModal(0))}><img src="nlm.PNG" width="50%"/></a>
       <li className="pt-5"><strong>Concert Tickets</strong></li>
       <p className="font-semibold">09/2026</p>
       <p className="py-2.5 my-5"> Using React and CSS, I created a ticket inventory checker that uses Ticketmaster's API to check for concert availability.</p>
-      <img src="orlando.PNG" width="50%" />
+      <a href="#frame" onClick={((e) => OpenModal(1))}><img src="orlando.PNG" width="50%" /></a>
       <li className="pt-5"><strong>Road Jump</strong></li>
       <p className="font-semibold">09/2026</p>
       <p className="pb-5 mt-5">Starting with React and Next.Js, I created a browser game where the objective is to get to other side of the street using the directional arrows as controls.</p>
-      <img src="roadjump.PNG" width="50%" />    
+      <a href="#frame" onClick={((e) => OpenModal(2))}><img src="roadjump.PNG" width="50%" /></a>    
+     
       <li className="pt-5"><strong>Portfolio Website</strong></li>
       <p className="font-semibold">10/2026</p>
       <p className="pl-10 py-2.5">Using NextJs and plain CSS I created a portfolio website displaying all of my projects.</p>
       <li className="pt-5"><strong>Pix_ - 2D Game</strong></li>
       <p className="font-semibold">11/2026</p>
       <p className="pb-5 my-5">I created a game called Pix_ using a python like language that works on browser.</p>
-      <img src="image1.svg" width='50%' className="pb-5 pl-5"/> <a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
-    </ul>
+      <a href="#frame" onClick={((e) => OpenModal(3))}><img src="image1.PNG" width='50%' className="pb-5 pl-5"/> </a><a href="/Pix_.html" className="pl-15" >Click <strong> here </strong>to play.</a>
+      
 
-    
+    </ul>
     </div>
     </div>
  </div>
   </div>
+
+{!openModal && <a href="#"><iframe id="frame" width="75%" height="1000px" src={m1.src} className="frame fixed bg-white/50 inset-0 z-20 top-25 left-25 mx-auto justify-center items-center"><div className="litebox z-1000 inset-0 fixed w-full mx-auto"><img width="1000px" src={m1.src} height="1000px" /></div><button className="bg-blue fixed top-50 z-1000 w-30 rounded-lg"></button></iframe> </a>}
+{openModal ?? close }
     </main>
    
 </div>
